@@ -251,9 +251,45 @@ changeTopic();
 /**
  * For reference list.
  */
+function ajaxGssGetData(url, func){
+    $.getJSON(url,function(objGss){
+        if(objGss.feed.entry){
+            var arrData = new Array();
+            var keyarr;
+            for (var i = 0; i < objGss.feed.entry.length; i++) {
+                arrData[i] = new Object();
+                keyarr = Object.keys(objGss.feed.entry[i]);
+                for (var j = 0; j < keyarr.length; j++) {
+                    var key = keyarr[j].split('gsx$')[1];
+                    if(key){
+                        arrData[i][key] = objGss.feed.entry[i][keyarr[j]]['$t'];
+                    }
+                };
+            };
+            func(arrData);
+        }else{
+            console.error("It's not a Gss object.");
+        }
+        
+    },function(){
+        console.log("Doesn't get Data.");
+    });    
+}
+
+ajaxGssGetData("https://spreadsheets.google.com/feeds/list/19xCzpDYK_AB7aLZXqaStTvHDL4p8yOr1391sDY7vP-Y/od6/public/values?alt=json",function(data){
+    console.log(data);
+    for (var i = data.length - 1; i >= 0; i--) {
+        if(data[i].enable == "1"){
+            var $ref_li = $('<li>').append($('<a>').attr('href',data[i].url).attr('target',"_blank").text(data[i].title));
+            $ref_li.insertAfter($('.reference'));
+            $ref_li.clone().prependTo($('#reference').find('ul'));
+        };
+    }
+});
 
 
 }(window, document, jQuery));
+
 function clickMenu(){
     if($('#menu').prop('checked')){
         $('#main').css('overflow', 'hidden');

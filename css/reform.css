@@ -53,3 +53,8 @@ blockquote h4{
 .hide{
   height: 0;
 }
+#reference ul a{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
