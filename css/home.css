@@ -1,0 +1,11 @@
+.topic {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+footer#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%; }

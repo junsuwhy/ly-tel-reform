@@ -1,0 +1,372 @@
+[{
+	"layout": "./template/home.hbs",
+	"filename": "index.html",
+	"basic": {
+		"url": "index.html",
+		"title": "「123。打。道。掛。」三動作護台灣系列",
+		"og_title": "「123。打。道。掛。」三動作護台灣系列",
+		"og_site_name": "「123。打。道。掛。」三動作護台灣系列",
+		"og_url": "123.g0v.today",
+		"og_description": "「123。打。道。掛。」三動作護台灣系列",
+		"og_image": "/images/step/step1.png",
+		"author": "chilijung",
+		"viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+		"shortcut_icon": "/images/favicon.ico",
+
+		"scripts": [
+			"https://code.jquery.com/jquery-1.11.0.min.js",
+			"//static.addtoany.com/menu/page.js",
+			"//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"
+		],
+
+		"stylesheets": [
+			"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css",
+			"css/style.css",
+			"css/home.css"
+		],
+
+		"google_analytics": {
+			"UA": "UA-41326468-1", 
+			"url": "g0v.today"
+		},
+
+		"topic": [
+			{
+				"url": "tisa.html",
+				"title": "反服務貿易協定"
+			},
+			{
+				"url": "nonuke.html",
+				"title": "修公投法 停建核四"
+			}
+		]
+	}
+	
+},
+{
+	"layout": "./template/default.hbs",
+	"filename": "tisa.html",
+	"basic": {
+		"url": "",
+		"title": "「123。打。道。掛。」三動作護台灣",
+		"og_title": "「123。打。道。掛。」三動作護台灣",
+		"og_site_name": "「123。打。道。掛。」三動作護台灣",
+		"og_url": "123.g0v.today",
+		"og_description": "「123。打。道。掛。」三動作護台灣",
+		"og_image": "/images/step/step1.png",
+		"author": "chilijung",
+		"viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+		"shortcut_icon": "/images/favicon.ico",
+
+		"scripts": [
+			"https://code.jquery.com/jquery-1.11.0.min.js",
+			"js/locate/assets/rep_data.js",
+			"js/locate/assets/rep_card.js",
+			"js/locate/assets/rep_selector.js",
+			"js/locate/assets/location_resolver.js",
+			"js/locate/assets/app.js",
+			"js/locate-start.js",
+			"//static.addtoany.com/menu/page.js",
+			"//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js",
+			"js/script.js",
+			"//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"
+		],
+
+		"stylesheets": [
+			"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css",
+			"css/style.css",
+			"css/locate.css"
+		],
+
+		"disqus": "tisa-ly",
+
+		"google_analytics": {
+			"UA": "UA-41326468-1", 
+			"url": "g0v.today"
+		},
+
+		"bottom_bar": [
+			{
+				"href": "teach",
+				"class": "glyphicon-bullhorn",
+				"title": "三動作"
+			},
+			{
+				"href": "ly",
+				"class": "glyphicon-th-list",
+				"title": "名單列表"
+			},
+			{
+				"href": "ly-discuss",
+				"class": "glyphicon-group",
+				"title": "經驗分享"
+			}
+		],
+
+		"side_bar": [
+			{
+				"href": "teach",
+				"title": "三動作",
+				"sub": [
+					{
+						"href": "action1",
+						"title": "動作一"
+					},
+					{
+						"href": "action2",
+						"title": "動作二"
+					},
+					{
+						"href": "action3",
+						"title": "動作三"
+					}
+
+				]
+			},
+
+			{
+				"href": "others",
+				"title": "還可以怎麼說？",
+				"sub": [
+					{
+						"href": "citizen",
+						"title": "民意篇"
+					}
+				]
+			},
+
+			{
+				"href": "ly",
+				"title": "找立委",
+				"sub": [
+					{
+						"href": "ly-list",
+						"title": "立委列表"
+					},
+
+					{
+						"href": "ly-locate",
+						"title": "尋找選區立委"
+					},
+
+					{
+						"href": "ly-more",
+						"title": "想更了解你的立委？"
+					}
+				]
+			},
+
+			{
+				"href": "discuss",
+				"title": "立委怎麼說？經驗分享"
+			},
+
+			{
+				"href": "contract",
+				"title": "兩岸協議監督條例",
+				"sub": [
+					{
+						"href": "local-ver",
+						"title": "民間版「兩岸協定締結條例內容」"
+					},
+
+					{
+						"href": "act-ver",
+						"title": "行政院版本兩岸協議監督條例"
+					},
+					{
+						"href": "ding-ver",
+						"title": "鄭麗君版"
+					},
+					{
+						"href": "DPP-ver",
+						"title": "民進黨黨團版"
+					},
+					{
+						"href": "yao-ver",
+						"title": "姚文智版"
+					}
+				]
+			},
+
+			{
+				"href": "report",
+				"title": "功能新增與除錯建議"
+			}
+		],
+
+		"md_first": [
+			"./md/tisa/step.md",
+			"./md/tisa/others.md"
+		],
+
+		"md_end": [
+			"./md/tisa/contract.md"
+		]
+	}
+	
+},{
+	"layout": "./template/default.hbs",
+	"filename": "nonuke.html",
+	"basic": {
+		"url": "",
+		"title": "123廢核四「打。道。掛。」",
+		"og_title": "123廢核四「打。道。掛。」",
+		"og_site_name": "123廢核四「打。道。掛。」",
+		"og_url": "123.g0v.today",
+		"og_description": "廢除鳥籠公投，下修公投門檻",
+		"og_image": "/images/step/step1.png",
+		"author": "chilijung",
+		"viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+		"shortcut_icon": "/images/favicon.ico",
+
+		"scripts": [
+			"https://code.jquery.com/jquery-1.11.0.min.js",
+			"js/locate/assets/rep_data.js",
+			"js/locate/assets/rep_card.js",
+			"js/locate/assets/rep_selector.js",
+			"js/locate/assets/location_resolver.js",
+			"js/locate/assets/app.js",
+			"js/locate-start.js",
+			"//static.addtoany.com/menu/page.js",
+			"//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js",
+			"js/script.js",
+			"//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"
+		],
+
+		"stylesheets": [
+			"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css",
+			"css/style.css",
+			"css/locate.css"
+		],
+
+		"disqus": "nonukely",
+
+		"google_analytics": {
+			"UA": "UA-41326468-1", 
+			"url": "g0v.today"
+		},
+
+		"bottom_bar": [
+			{
+				"href": "teach",
+				"class": "glyphicon-bullhorn",
+				"title": "三動作"
+			},
+			{
+				"href": "ly",
+				"class": "glyphicon-th-list",
+				"title": "名單列表"
+			},
+			{
+				"href": "ly-discuss",
+				"class": "glyphicon-group",
+				"title": "經驗分享"
+			}
+		],
+
+		"side_bar": [
+			{
+				"href": "nonuke",
+				"title": "停建核四、遍地烽火全記錄"
+			},
+			{
+				"href": "teach",
+				"title": "三動作",
+				"sub": [
+					{
+						"href": "action1",
+						"title": "動作一"
+					},
+					{
+						"href": "action2",
+						"title": "動作二"
+					},
+					{
+						"href": "action3",
+						"title": "動作三"
+					}
+
+				]
+			},
+			{
+				"href": "ly",
+				"title": "找立委",
+				"sub": [
+					{
+						"href": "ly-list",
+						"title": "立委列表"
+					},
+
+					{
+						"href": "ly-locate",
+						"title": "尋找選區立委"
+					},
+
+					{
+						"href": "ly-more",
+						"title": "想更了解你的立委？"
+					}
+				]
+			},
+
+			{
+				"href": "discuss",
+				"title": "立委怎麼說？經驗分享"
+			},
+
+			{
+				"href": "reference",
+				"title": "參考資料",
+				"sub": [
+					{
+						"href": "link1",
+						"title": "林義雄：《公投法》修好　核四公投..."
+					},
+					{
+						"href": "link2",
+						"title": "落實民主，停建核四 林義雄禁食行動"
+					},
+
+					{
+						"href": "link3",
+						"title": "2013擁核立委調查結果及電話教戰手冊"
+					},
+
+					{
+						"href": "link4",
+						"title": "黃丞儀：左手打右手的執政黨─馬主席..."
+					},
+
+					{
+						"href": "link5",
+						"title": "公投法補正研究"
+					},
+
+					{
+						"href": "link6",
+						"title": "拆掉投票率的門檻，破除反民主的心魔"
+					},
+
+					{
+						"href": "link7",
+						"title": "評論：公投門檻的悖逆"
+					}
+				]
+			},
+			{
+				"href": "report",
+				"title": "功能新增與除錯建議"
+			}
+		],
+
+		"md_first": [
+			"./md/nonuke/step.md"		
+		],
+
+		"md_end": [
+			"./md/nonuke/reference.md"
+		]
+	}
+	
+}]

@@ -1,0 +1,161 @@
+@import 'var';
+ul#links{
+  @media only screen and (max-width: 767px){
+    background-color: yellow;
+  }
+}
+
+.sidebar {
+  @media only screen and (max-width: 767px){
+    padding: 0 16px;
+    margin-left: 0;
+  }
+  // position:fixed;
+  margin-top: 42px;
+  text-decoration: none;
+  h2 {
+    margin-top: 5px;
+  }
+}
+.sidebar ul {
+  margin-bottom: 21px;
+  list-style-position: inside;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 3px;
+  a {
+    color: #444;
+  }
+}
+.sidebar li.title {
+  font-size: 20px;
+  padding-bottom: 3px;
+  padding-top: 9px;
+  list-style-type: none;
+  a {
+    color: #444;
+  }
+}
+.sidebar li.title .small {
+  font-size: 15px;
+  padding-left: 5px;
+}
+.sidebar li {
+  font-size: 16px;
+}
+.sidebar li a {
+  color: #777;
+}
+.sidebar li a:hover {
+  text-decoration: none;
+  color: red;
+}
+.sidebar li:not(.title) {
+  margin-left: 7px;
+  padding-top: 3px;
+}
+
+.sidebar.affix{
+  top: 0;
+  position: static !important;
+  @media only screen and (min-width: 768px){
+    position: fixed !important;
+
+    // When sidebar goes "affix", offset #main
+    & + #main {
+      // Same as .col-sm-offset-4
+      margin-left: (100%)/12*4;
+    }
+  }
+}
+
+// Mobile menu
+.bottombar {
+  z-index: 1; // Higher than anyother
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(#fff, .9);
+  text-align: center;
+
+  border-top: 1px #ccc solid;
+
+  // Override default <ul> styles
+  ul{
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0
+  }
+
+  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #444;
+    padding: 1em 0;
+  }
+
+  .glyphicon{
+    font-size: 150%;
+  }
+}
+
+//sidebar - small screen
+input{
+  display:none;
+}
+@media only screen and (max-width: 767px){
+    $menu-width:20em;
+    $content-offset:.5em;
+    .sidebar{
+      // margin-top: 1em;
+    }
+    nav[role="off-canvas"]{
+        position:absolute;
+        top:3em;
+        left:-$menu-width;
+        width:$menu-width;
+        opacity:0;
+        ul > li{
+            height:100%;
+            width:100%;
+            text-align: left;
+            margin:0;
+        }
+    }
+    label{
+        display:block;
+        cursor:pointer;
+        &:after{
+        position:absolute;
+        top:.5em;
+        left:.5em;
+        z-index: 5;
+            content:"\2261";
+            font-size:1.8em;
+        }
+    }
+    label:hover, input:checked ~ label{
+        color:#000;
+    }
+
+    input:checked ~ nav[role="off-canvas"]{
+        @include transition-duration(.6s);
+        opacity:1;
+        left:0;
+        top:13%;
+        ul > li{
+            padding: .2em .55em .2em 1.5em;
+        }
+    }
+    input:checked ~ .bottombar{
+      display:none;
+    }
+    input:checked ~ main{
+        @include transition-duration(.6s);
+        margin-left: $menu-width+$content-offset;
+        opacity:0;
+        // margin-right: -($menu-width+$content-offset);
+    }
+}

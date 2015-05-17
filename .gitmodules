@@ -1,0 +1,3 @@
+[submodule "js/locate"]
+	path = js/locate
+	url = https://github.com/timdream/rep-locator.git

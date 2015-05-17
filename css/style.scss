@@ -1,0 +1,285 @@
+@charset "utf-8";
+@import 'sidebar';
+@import 'var';
+/* CSS Document */
+/*reset*/
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.loading{
+  margin: 5em;
+}
+
+#results h1{
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+}
+#results h2{
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0.5em 0;
+}
+
+#results article{
+  padding: 1.5em 0;
+
+  img.img-circle {
+    width: 32px;
+    height: 32px;
+  }
+  @media only screen and (max-width: 767px){
+    h1, h2{
+      // Mobile view: put h1, h2 in a line
+      display: inline-block;
+      padding-left: 10px;
+      vertical-align: middle;
+      margin: 0;
+      line-height: 1.2;
+    }
+    header{
+      // Add margin in mobile view
+      margin-bottom: 0.5em;
+    }
+
+    &:before{
+      display:block !important;
+    }
+    div.col-xs-1{
+      img{
+        display:inline-block;
+      }
+    }
+
+    .ly-info {
+      float: left;
+      width: 30%;
+    }
+    .ly-avatar,
+    .ly-title {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .ly-title {
+      h1, h2 {
+        padding: 0.3em 0;
+        display: block;
+      }
+    }
+    .ly-contact {
+      width: 70%;
+    }
+
+
+  }
+}
+
+#results article:nth-child(2n){
+  background: #eee;
+}
+#results .contact:nth-child(2n) {
+  border-top: 1px solid #E2E2E2;
+  margin-top: 0.7em;
+  padding-top: 0.7em;
+}
+#results .contact{
+  margin-top: 0.5em;
+
+  .glyphicon-earphone{
+    color: #fff;
+    background: #f00;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 0.25em;
+  }
+
+  .tel{
+    font-size: 16px;
+  }
+}
+#results .contact:first-child{
+  margin-top: 0em;
+}
+#results .contact h3{
+  margin-top: 0;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+#topbar {
+  background: #ffa100;
+  height: 80px;
+  padding: 0.75em;
+}
+#topbar .logo {
+  font-size: 24px;
+  color: #2b2b2b;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+#topbar .logo:hover {
+  color: lighten(#2b2b2b, 10%);
+}
+
+#topbar .share {
+  width: 150px;
+}
+
+/* main */
+
+#main {
+  #text-instruction {
+    display: block;
+  }
+
+  #img-instruction {
+    display: none;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    margin-top: 24px;
+    #text-instruction {
+      display: none;
+    }
+    #img-instruction {
+      display: block;
+    }
+  }
+  // width: 51em;
+}
+
+#locator {
+  width: 100%;
+  height: 600px;
+}
+
+
+#map{
+  width: 100%;
+  height: 500px;
+}
+
+/*main .head {
+  font-size: 50px;
+}
+main .head:before {
+  background-image: url(/images/logo/logo.png);
+  content: " ";
+  width: 31.799999999999997px;
+  height: 37.199999999999996px;
+  background-size: 31.799999999999997px 37.199999999999996px;
+  position: absolute;
+  margin-left: -37px;
+  margin-top: 13px;
+}
+main .content {
+  margin-bottom: 70px;
+}
+main .content .title {
+  padding-left: 17px;
+  margin-left: -30px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+main .content .title:target {
+  margin-top: 50px;
+  border-left: 5px red solid;
+}
+main .content .intro {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+main .md {
+  margin-left: 10px;
+}
+main .md h2 {
+  margin-left: -20px;
+}
+main .md p {
+  font-size: 17px;
+}
+
+*/
+
+
+
+/* footer */
+#footer {
+  margin-top: 36px;
+  padding: 36px 0;
+  clear: both;
+  position: relative;
+  background-color: #3a3939;
+  color: #c7c7c7;
+  // height: 100px;
+  overflow: hidden;
+}
+#footer .container {
+  padding: 0 16px;
+  max-width: 760px;
+}
+
+#footer a {
+  color: yellow;
+}
+
+#footer .copyright {
+  font-size:13px;
+  line-height:1.4em;
+  margin: 0;
+  text-align: center;
+}
+#footer .copyright img {
+  // line-height: 100px;
+  display: block;
+  margin: 0 auto 12px;
+}
+#footer .copyright span {
+  vertical-align: middle;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-size: 12px;
+  display: inline-block;
+}
+#footer .footer-logo {
+  margin-bottom: 12px;
+}
+#footer .g0v {
+  display: block;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  background-image: url('/images/g0v.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 173px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+@media (min-width: 767px) {
+  #footer .copyright {
+    text-align: left;
+  }
+  #footer .copyright img {
+  line-height: 32px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+  #footer .copyright span {
+
+  }
+  #footer .footer-logo {
+    margin-bottom: 0;
+    float: right;
+  }
+}
