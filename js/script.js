@@ -284,7 +284,7 @@ ajaxGssGetData("https://spreadsheets.google.com/feeds/list/19xCzpDYK_AB7aLZXqaSt
    for (var i = 0; i < data.length; i++) {
         if(data[i].enable == "1"){
             $('#topic').append($('<option value="topic'+i+'">').text(data[i].title));
-            var $title_h4 = $('<h4>').text(data[i].title);
+            var $title_h4 = $('<h4>').text("要求："+data[i].title);
             var content = '<p>'+data[i].content.replace(/\n\n/g,'\n').replace(/\n/g,'</p><p>').replace('______選區的選民______','<span class="custom-name">____選區的選民____</span>')+'</p>';
             var $ref_a = $('<a href="javascript:void(0)" class="display-reference">').text('憲動盟參考條文');
             var $ref_body_div = $('<div class="topic-reference-content hide">').html('<p>'+data[i].addition.replace(/\n\n/g,'\n').replace(/\n/g,'</p><p>')+'</p>');
