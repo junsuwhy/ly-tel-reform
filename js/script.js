@@ -232,21 +232,14 @@ if($(window).width()>767){
 }
 
 // add by junsuwhy
-/**
- * For changing topic form. 
- */
-$('.topic-reference a').click(function(){
-    $(this).next().toggleClass('hide');
-})
 
-$('#topic').change(changeTopic);
+
 function changeTopic(){
     var topic = $('#topic').val();
     $('.call-topic').hide();
     $('.call-'+topic).show();
     $('.topic-reference-content').addClass('hide');
 }
-changeTopic();
 
 /**
  * For reference list.
@@ -272,12 +265,11 @@ function ajaxGssGetData(url, func){
         }
         
     },function(){
-        console.log("Doesn't get Data.");
+        console.error("Doesn't get Data.");
     });    
 }
 
 ajaxGssGetData("https://spreadsheets.google.com/feeds/list/19xCzpDYK_AB7aLZXqaStTvHDL4p8yOr1391sDY7vP-Y/od6/public/values?alt=json",function(data){
-    console.log(data);
     for (var i = data.length - 1; i >= 0; i--) {
         if(data[i].enable == "1"){
             var $ref_li = $('<li>').append($('<a>').attr('href',data[i].url).attr('target',"_blank").text(data[i].title));
@@ -285,6 +277,32 @@ ajaxGssGetData("https://spreadsheets.google.com/feeds/list/19xCzpDYK_AB7aLZXqaSt
             $ref_li.clone().prependTo($('#reference').find('ul'));
         };
     }
+});
+
+/* For action2 content */
+ajaxGssGetData("https://spreadsheets.google.com/feeds/list/19xCzpDYK_AB7aLZXqaStTvHDL4p8yOr1391sDY7vP-Y/ocsoi5b/public/values?alt=json",function(data){
+   for (var i = 0; i < data.length; i++) {
+        if(data[i].enable == "1"){
+            $('#topic').append($('<option value="topic'+i+'">').text(data[i].title));
+            var $title_h4 = $('<h4>').text(data[i].title);
+            var content = '<p>'+data[i].content.replace(/\n\n/g,'\n').replace(/\n/g,'</p><p>').replace('______選區的選民______','<span class="custom-name">____選區的選民____</span>')+'</p>';
+            var $ref_a = $('<a href="javascript:void(0)" class="display-reference">').text('憲動盟參考條文');
+            var $ref_body_div = $('<div class="topic-reference-content hide">').html('<p>'+data[i].addition.replace(/\n\n/g,'\n').replace(/\n/g,'</p><p>')+'</p>');
+            var $ref_div = $('<div class="topic-reference">').append($ref_a).append($ref_body_div);
+            var $con_div = $('<div class="call-topic call-topic'+i+'">').append($('<blockquote>').html(content).prepend($title_h4)).append($ref_div);
+            $('.call-content').append($con_div);
+        };
+    } 
+    $('#topic').change(changeTopic);
+    changeTopic();
+
+    /**
+     * For changing topic form. 
+     */
+    $('.topic-reference a').click(function(){
+        $(this).next().toggleClass('hide');
+    })
+
 });
 
 
