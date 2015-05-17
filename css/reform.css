@@ -33,6 +33,9 @@
   color: #999;
   margin-left: 20px;
 }
+blockquote h4{
+  display: none;
+}
 
 /* 憲動盟參考條文 */
 .display-reference:before{
