@@ -232,6 +232,10 @@ if($(window).width()>767){
     $('.sidebar').css('height',$w.height());
 }
 
+// add by junsuwhy
+/**
+ * For changing topic form. 
+ */
 $('#topic').change(changeTopic);
 function changeTopic(){
     var topic = $('#topic').val();
@@ -239,6 +243,10 @@ function changeTopic(){
     $('.call-'+topic).show();
 }
 changeTopic();
+
+/**
+ * For reference list.
+ */
 
 
 }(window, document, jQuery));
