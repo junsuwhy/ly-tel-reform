@@ -230,8 +230,17 @@ if($(window).width()>767){
     var $w = $(window);
     var sbpt = typeof $('.sidebar').css('padding-top') == 'string'?$('.sidebar').css('padding-top').split('px')[0]:0;
     $('.sidebar').css('height',$w.height());
-    console.log("haha");
 }
+
+$('#topic').change(changeTopic);
+function changeTopic(){
+    var topic = $('#topic').val();
+    $('.call-topic').hide();
+    $('.call-'+topic).show();
+}
+changeTopic();
+
+
 }(window, document, jQuery));
 function clickMenu(){
     if($('#menu').prop('checked')){
@@ -248,5 +257,4 @@ $('#menu').click(function(){
 $('.sidebar ul li').click(function(){
     $('#menu').prop("checked", false);
     clickMenu();
-
 });
