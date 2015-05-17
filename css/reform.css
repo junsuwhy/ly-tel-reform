@@ -14,6 +14,39 @@
   font-size: 13px;
   color: #666;
 }
+.action2 h2{
+  font-size: 23px;
+  margin-left: 20px;
+}
+.action2 h3{
+  margin-top: 10px;
+  font-size: 39px;
+  margin-left: 20px;
+}
 .demand{
-  
+  background: darkred;
+  padding: 5px 10px;
+  font-size: 31px;
+  color: white;
+}
+#topic-form{
+  color: #999;
+  margin-left: 20px;
+}
+
+/* 憲動盟參考條文 */
+.display-reference:before{
+  content:"»";
+  padding-right: 10px;
+  margin-left: 20px;
+}
+/* 之後做
+.topic-reference-content{
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}*/
+.hide{
+  height: 0;
 }

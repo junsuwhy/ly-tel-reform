@@ -228,7 +228,6 @@ if($(window).width()>767){
     });
 
     var $w = $(window);
-    var sbpt = typeof $('.sidebar').css('padding-top') == 'string'?$('.sidebar').css('padding-top').split('px')[0]:0;
     $('.sidebar').css('height',$w.height());
 }
 
@@ -236,11 +235,16 @@ if($(window).width()>767){
 /**
  * For changing topic form. 
  */
+$('.topic-reference a').click(function(){
+    $(this).next().toggleClass('hide');
+})
+
 $('#topic').change(changeTopic);
 function changeTopic(){
     var topic = $('#topic').val();
     $('.call-topic').hide();
     $('.call-'+topic).show();
+    $('.topic-reference-content').addClass('hide');
 }
 changeTopic();
 
