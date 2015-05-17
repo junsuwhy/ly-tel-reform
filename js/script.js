@@ -190,14 +190,14 @@ function showResults(){
             showReportNum(lyId, 1);
         }
         $.ajax({
-            url: 'https://docs.google.com/forms/d/1rFUdVAm2YPmNPFJw5hf5qOlqT-kWh8nflT3YKTHd_I0/formResponse',
-            data: {'entry.1839673598': lyId},
+            url: 'https://docs.google.com/forms/d/1yf_SOKIkA-mX9wTWJK8OgI6sm-972isPyBMnN7QTmu8/formResponse',
+            data: {'entry.1286314681': lyId},
             type: 'POST',
             dataType: 'xml'
         });
     });
     $.ajax({
-        url: 'https://spreadsheets.google.com/tq?&tq=select%20B%2C%20count(A)%20group%20by%20B&key=0AoqU8WuJgsBmdF9ORjB5OHZTeWlSbXA0eGVQeVprX2c&gid=3&tqx=out:html',
+        url: 'https://spreadsheets.google.com/tq?&tq=select%20B%2C%20count(A)%20group%20by%20B&key=1R4HffQexRmeqVVWMdLaSwRTjU_AaK07P6qn1IdSHYQY&gid=&tqx=out:html',
         success: function (result) {
             $($.parseHTML(result)).find('tr').each(function () {
                 var lyId = $(this).find('td').first().text();
