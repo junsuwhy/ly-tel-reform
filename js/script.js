@@ -74,6 +74,8 @@ var partyParser = function (party) {
         return '親民黨';
     case 'NSU':
         return '無黨團結聯盟';
+    case 'MKT':
+        return '民國黨';
     default:
         if (party === null){
             return '無黨籍';

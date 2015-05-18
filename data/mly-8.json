@@ -7767,81 +7767,6 @@
     },
     {
         "ad": 8,
-        "caucus": "TSU",
-        "committees": [
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "經費稽核委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "社會福利及衛生環境委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "社會福利及衛生環境委員會",
-                "session": 2
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "程序委員會",
-                "session": 2
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "社會福利及衛生環境委員會",
-                "session": 1
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "程序委員會",
-                "session": 1
-            }
-        ],
-        "constituency": [
-            "proportional"
-        ],
-        "education": [
-            "國立台灣大學公共衛生學系",
-            "國立陽明大學衛生福利研究所碩士"
-        ],
-        "experience": [
-            "國立台灣大學公共衛生學系",
-            "國立陽明大學衛生福利研究所碩士",
-            "財團法人台灣醫界聯盟基金會執行長",
-            "財團法人彭婉如文教基金會董事長",
-            "行政院副院長辦公室主任"
-        ],
-        "gender": "女",
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80026.jpg",
-        "in_office": false,
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00026&stage=8"
-        },
-        "name": "林世嘉",
-        "party": "TSU",
-        "remark": [
-            "喪失其所屬台灣團結聯盟黨籍，註銷其立法委員名籍（依中央選舉委員會民國102年7月15日函辦理）"
-        ],
-        "term_end": {
-            "date": "2013-07-15",
-            "reason": "因喪失其所屬台灣團結聯盟黨籍，本院於102年7月15日起註銷名籍。",
-            "replacement": "葉津鈴"
-        },
-        "term_start": "2012-02-01",
-        "avatar": "http://avatars.io/52ed1f85c747b48148000053/ad412b72743d2b25d4c5429bbaf1f5fa",
-        "id": 1740
-    },
-    {
-        "ad": 8,
         "caucus": "DPP",
         "committees": [
             {
@@ -8369,65 +8294,10 @@
             "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00047&stage=8"
         },
         "name": "徐欣瑩",
-        "party": "KMT",
+        "party": "MKT",
         "term_start": "2012-02-01",
         "avatar": "http://avatars.io/52ed1f85c747b48148000053/2f16b3af80328b0fdfe33c10c635a43c",
         "id": 1747
-    },
-    {
-        "ad": 8,
-        "caucus": "PFP",
-        "committees": [
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 2
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 1
-            }
-        ],
-        "constituency": [
-            "proportional"
-        ],
-        "education": [
-            "東吳大學中文系學士"
-        ],
-        "experience": [
-            "東吳大學中文系學士",
-            "東吳大學中文系助教及講師",
-            "陽明大學副教授、教授",
-            "曾當選十大傑出女青年，獲國家文藝獎"
-        ],
-        "gender": "女",
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80055.jpg",
-        "in_office": false,
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00055&stage=8"
-        },
-        "name": "張曉風",
-        "party": "PFP",
-        "remark": [
-            "自民國102年3月17日起辭去立法委員職務"
-        ],
-        "term_end": {
-            "date": "2013-03-17",
-            "reason": "辭職。",
-            "replacement": "陳怡潔"
-        },
-        "term_start": "2012-02-01",
-        "avatar": "http://avatars.io/52ed1f85c747b48148000053/8adeac5a6130aeab9efbc24ae2ba3d19",
-        "id": 1748
     },
     {
         "ad": 8,
