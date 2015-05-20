@@ -1,6 +1,9 @@
 .sidebar{
   overflow: scroll;
 }
+#main #img-instruction{
+  display: block;
+}
 .custom-name{
   padding: 0px 5px 2px;
   border: 1px solid #ddd;
