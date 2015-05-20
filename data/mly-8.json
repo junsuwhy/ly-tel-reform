@@ -5,6 +5,329 @@
         "committees": [
             {
                 "ad": 8,
+                "chair": true,
+                "name": "紀律委員會",
+                "session": 4
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "司法及法制委員會",
+                "session": 4
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "紀律委員會",
+                "session": 3
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "司法及法制委員會",
+                "session": 3
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "司法及法制委員會",
+                "session": 2
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "司法及法制委員會",
+                "session": 1
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "紀律委員會",
+                "session": 1
+            }
+        ],
+        "constituency": [
+            "HSZ",
+            0
+        ],
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號0407室",
+                "fax": "02-2358-6260",
+                "name": "國會研究室",
+                "phone": "02-2358-6258"
+            },
+            {
+                "address": "新竹市民族路272號",
+                "fax": "03-542-9399",
+                "name": "新竹服務處",
+                "phone": "03-535-8181"
+            }
+        ],
+        "education": [
+            "英國國立格萊摩根大學人力資源管理科學碩士"
+        ],
+        "experience": [
+            "英國國立格萊摩根大學人力資源管理科學碩士",
+            "第5、6、7屆立法委員",
+            "立法院法制及程序委員會召委",
+            "國民黨立法院黨團書記長",
+            "第2、3屆國大代表",
+            "國民大會主席團主席及書記長",
+            "新竹市議員",
+            "明新科技大學兼任講師",
+            "世界呂氏宗親會理事長",
+            "世界客屬總會副理事長",
+            "新竹市青溪協會理事長",
+            "新竹觀護志工協進會理事長",
+            "英國卡飛利州政府人事處處長特助"
+        ],
+        "gender": "男",
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80018.jpg",
+        "in_office": true,
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00018&stage=8"
+        },
+        "name": "呂學樟",
+        "party": "KMT",
+        "term_start": "2012-02-01",
+        "avatar": "http://avatars.io/52ed1f85c747b48148000053/c831d0aac8c897284faa3b165e2054c6",
+        "id": 892
+    },
+    {
+        "ad": 8,
+        "caucus": "KMT",
+        "committees": [
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "內政委員會",
+                "session": 4
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "紀律委員會",
+                "session": 3
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "內政委員會",
+                "session": 3
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "內政委員會",
+                "session": 2
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "內政委員會",
+                "session": 1
+            }
+        ],
+        "constituency": [
+            "TXG",
+            8
+        ],
+        "contacts": [
+            {
+                "address": "10051臺北市中正區濟南路1段3-1號2102室",
+                "fax": "02-2358-6730",
+                "name": "國會研究室",
+                "phone": "02-2358-6726"
+            },
+            {
+                "address": "臺中市豐原區南村路20號",
+                "fax": "04-2515-6798",
+                "name": "豐原服務處",
+                "phone": "04-2515-9998"
+            },
+            {
+                "address": "臺中市東勢區第五橫街32號",
+                "fax": "04-2577-3167",
+                "name": "東勢服務處",
+                "phone": "04-2577-3099"
+            }
+        ],
+        "education": [
+            "美國南卡羅萊納大學國際關係博士",
+            "美國匹茲堡大學公共暨國際事務碩士",
+            "國立政治大學外交學系畢業",
+            "台中一中畢業",
+            "豐南國中畢業",
+            "瑞穗國小畢業"
+        ],
+        "experience": [
+            "美國南卡羅萊納大學國際關係博士",
+            "美國匹茲堡大學公共暨國際事務碩士",
+            "國立政治大學外交學系畢業",
+            "台中一中畢業",
+            "豐南國中畢業",
+            "瑞穗國小畢業",
+            "行政院新聞局局長",
+            "東吳大學副教授",
+            "東吳大學助理教授",
+            "台灣經濟研究院國際處代處長",
+            "太平洋經濟合作理事會",
+            "中華民國委員會副秘書長",
+            "獲選中央社2006年「台灣十大潛力人物」"
+        ],
+        "gender": "男",
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80010.jpg",
+        "in_office": true,
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00010&stage=8"
+        },
+        "name": "江啟臣",
+        "party": "KMT",
+        "term_start": "2012-02-01",
+        "avatar": "http://avatars.io/52ed1f85c747b48148000053/34b23fe50834ca3cf461538f31aedc47",
+        "id": 1731
+    },
+    {
+        "ad": 8,
+        "caucus": "KMT",
+        "committees": [
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "內政委員會",
+                "session": 4
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "程序委員會",
+                "session": 4
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "內政委員會",
+                "session": 3
+            },
+            {
+                "ad": 8,
+                "chair": true,
+                "name": "程序委員會",
+                "session": 3
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "程序委員會",
+                "session": 2
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "內政委員會",
+                "session": 2
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "程序委員會",
+                "session": 1
+            },
+            {
+                "ad": 8,
+                "chair": false,
+                "name": "內政委員會",
+                "session": 1
+            }
+        ],
+        "constituency": [
+            "TPQ",
+            1
+        ],
+        "contacts": [
+            {
+                "address": "10051臺北市中正區青島東路10號3502室",
+                "fax": "02-2358-8015",
+                "name": "國會研究室",
+                "phone": "02-2358-8011"
+            },
+            {
+                "address": "新北市泰山區明志路一段478號2樓",
+                "fax": "02-2296-1607",
+                "name": "泰山服務處",
+                "phone": "02-2296-0360"
+            },
+            {
+                "address": "新北市淡水區中正東路55號2樓(淡水捷運站對面)",
+                "fax": "02-2625-5159",
+                "name": "淡水服務處",
+                "phone": "02-2625-5158"
+            },
+            {
+                "address": "新北市林口區中正路100號",
+                "fax": "02-2601-8589",
+                "name": "林口服務處",
+                "phone": "02-2601-8588"
+            },
+            {
+                "address": "新北市八里區中山路二段361號",
+                "fax": "02-2625-5158",
+                "name": "八里服務處",
+                "phone": "02-8630-5521"
+            },
+            {
+                "address": "新北市三芝區公正街三段1號1樓",
+                "fax": "02-2636-1565",
+                "name": "三芝服務處",
+                "phone": "02-2636-3110"
+            },
+            {
+                "address": "新北市石門區尖鹿村中山路70號",
+                "fax": "02-2638-1067",
+                "name": "石門服務處",
+                "phone": "02-2638-0249"
+            }
+        ],
+        "education": [
+            "政治大學政治系學士、公共行政碩士",
+            "台南一中",
+            "嘉義新港國中、新港國小"
+        ],
+        "experience": [
+            "政治大學政治系學士、公共行政碩士",
+            "台南一中",
+            "嘉義新港國中、新港國小",
+            "財經立法監督聯盟評比，內政立委第一名吳育昇",
+            "第6、7屆立法委員",
+            "內政委員會召委",
+            "馬蕭競選總部發言人",
+            "台北市政府新聞處長、發言人",
+            "警察專科學校、世新大學講師",
+            "中廣新聞部副組長",
+            "中華奧會委員",
+            "現代五項運動協會理事長",
+            "超級鐵人三項協會理事長",
+            "中國國民黨中常委、嘉義市義務副主委"
+        ],
+        "gender": "男",
+        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80014.jpg",
+        "in_office": true,
+        "links": {
+            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00014&stage=8"
+        },
+        "name": "吳育昇",
+        "party": "KMT",
+        "term_start": "2012-02-01",
+        "avatar": "http://avatars.io/52ed1f85c747b48148000053/2ecd319b41d5da458985448e883bc81c",
+        "id": 1322
+    },
+    {
+        "ad": 8,
+        "caucus": "KMT",
+        "committees": [
+            {
+                "ad": 8,
                 "chair": false,
                 "name": "外交及國防委員會",
                 "session": 4
@@ -2155,101 +2478,6 @@
     },
     {
         "ad": 8,
-        "caucus": "KMT",
-        "committees": [
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "紀律委員會",
-                "session": 4
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "司法及法制委員會",
-                "session": 4
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "紀律委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "司法及法制委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "司法及法制委員會",
-                "session": 2
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "司法及法制委員會",
-                "session": 1
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "紀律委員會",
-                "session": 1
-            }
-        ],
-        "constituency": [
-            "HSZ",
-            0
-        ],
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號0407室",
-                "fax": "02-2358-6260",
-                "name": "國會研究室",
-                "phone": "02-2358-6258"
-            },
-            {
-                "address": "新竹市民族路272號",
-                "fax": "03-542-9399",
-                "name": "新竹服務處",
-                "phone": "03-535-8181"
-            }
-        ],
-        "education": [
-            "英國國立格萊摩根大學人力資源管理科學碩士"
-        ],
-        "experience": [
-            "英國國立格萊摩根大學人力資源管理科學碩士",
-            "第5、6、7屆立法委員",
-            "立法院法制及程序委員會召委",
-            "國民黨立法院黨團書記長",
-            "第2、3屆國大代表",
-            "國民大會主席團主席及書記長",
-            "新竹市議員",
-            "明新科技大學兼任講師",
-            "世界呂氏宗親會理事長",
-            "世界客屬總會副理事長",
-            "新竹市青溪協會理事長",
-            "新竹觀護志工協進會理事長",
-            "英國卡飛利州政府人事處處長特助"
-        ],
-        "gender": "男",
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80018.jpg",
-        "in_office": true,
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00018&stage=8"
-        },
-        "name": "呂學樟",
-        "party": "KMT",
-        "term_start": "2012-02-01",
-        "avatar": "http://avatars.io/52ed1f85c747b48148000053/c831d0aac8c897284faa3b165e2054c6",
-        "id": 892
-    },
-    {
-        "ad": 8,
         "caucus": null,
         "committees": [
             {
@@ -3789,140 +4017,6 @@
         "term_start": "2012-02-01",
         "avatar": "http://avatars.io/52ed1f85c747b48148000053/2a8d5d9c6be0d1d639d06bb12b9c5cdb",
         "id": 1316
-    },
-    {
-        "ad": 8,
-        "caucus": "KMT",
-        "committees": [
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 4
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "程序委員會",
-                "session": 4
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "程序委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "程序委員會",
-                "session": 2
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 2
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "程序委員會",
-                "session": 1
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 1
-            }
-        ],
-        "constituency": [
-            "TPQ",
-            1
-        ],
-        "contacts": [
-            {
-                "address": "10051臺北市中正區青島東路10號3502室",
-                "fax": "02-2358-8015",
-                "name": "國會研究室",
-                "phone": "02-2358-8011"
-            },
-            {
-                "address": "新北市泰山區明志路一段478號2樓",
-                "fax": "02-2296-1607",
-                "name": "泰山服務處",
-                "phone": "02-2296-0360"
-            },
-            {
-                "address": "新北市淡水區中正東路55號2樓(淡水捷運站對面)",
-                "fax": "02-2625-5159",
-                "name": "淡水服務處",
-                "phone": "02-2625-5158"
-            },
-            {
-                "address": "新北市林口區中正路100號",
-                "fax": "02-2601-8589",
-                "name": "林口服務處",
-                "phone": "02-2601-8588"
-            },
-            {
-                "address": "新北市八里區中山路二段361號",
-                "fax": "02-2625-5158",
-                "name": "八里服務處",
-                "phone": "02-8630-5521"
-            },
-            {
-                "address": "新北市三芝區公正街三段1號1樓",
-                "fax": "02-2636-1565",
-                "name": "三芝服務處",
-                "phone": "02-2636-3110"
-            },
-            {
-                "address": "新北市石門區尖鹿村中山路70號",
-                "fax": "02-2638-1067",
-                "name": "石門服務處",
-                "phone": "02-2638-0249"
-            }
-        ],
-        "education": [
-            "政治大學政治系學士、公共行政碩士",
-            "台南一中",
-            "嘉義新港國中、新港國小"
-        ],
-        "experience": [
-            "政治大學政治系學士、公共行政碩士",
-            "台南一中",
-            "嘉義新港國中、新港國小",
-            "財經立法監督聯盟評比，內政立委第一名吳育昇",
-            "第6、7屆立法委員",
-            "內政委員會召委",
-            "馬蕭競選總部發言人",
-            "台北市政府新聞處長、發言人",
-            "警察專科學校、世新大學講師",
-            "中廣新聞部副組長",
-            "中華奧會委員",
-            "現代五項運動協會理事長",
-            "超級鐵人三項協會理事長",
-            "中國國民黨中常委、嘉義市義務副主委"
-        ],
-        "gender": "男",
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80014.jpg",
-        "in_office": true,
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00014&stage=8"
-        },
-        "name": "吳育昇",
-        "party": "KMT",
-        "term_start": "2012-02-01",
-        "avatar": "http://avatars.io/52ed1f85c747b48148000053/2ecd319b41d5da458985448e883bc81c",
-        "id": 1322
     },
     {
         "ad": 8,
@@ -7040,100 +7134,6 @@
         "term_start": "2012-02-01",
         "avatar": "http://avatars.io/52ed1f85c747b48148000053/7e6b58a7a6477c095778f904ac231332",
         "id": 1730
-    },
-    {
-        "ad": 8,
-        "caucus": "KMT",
-        "committees": [
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 4
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "紀律委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": true,
-                "name": "內政委員會",
-                "session": 3
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 2
-            },
-            {
-                "ad": 8,
-                "chair": false,
-                "name": "內政委員會",
-                "session": 1
-            }
-        ],
-        "constituency": [
-            "TXG",
-            8
-        ],
-        "contacts": [
-            {
-                "address": "10051臺北市中正區濟南路1段3-1號2102室",
-                "fax": "02-2358-6730",
-                "name": "國會研究室",
-                "phone": "02-2358-6726"
-            },
-            {
-                "address": "臺中市豐原區南村路20號",
-                "fax": "04-2515-6798",
-                "name": "豐原服務處",
-                "phone": "04-2515-9998"
-            },
-            {
-                "address": "臺中市東勢區第五橫街32號",
-                "fax": "04-2577-3167",
-                "name": "東勢服務處",
-                "phone": "04-2577-3099"
-            }
-        ],
-        "education": [
-            "美國南卡羅萊納大學國際關係博士",
-            "美國匹茲堡大學公共暨國際事務碩士",
-            "國立政治大學外交學系畢業",
-            "台中一中畢業",
-            "豐南國中畢業",
-            "瑞穗國小畢業"
-        ],
-        "experience": [
-            "美國南卡羅萊納大學國際關係博士",
-            "美國匹茲堡大學公共暨國際事務碩士",
-            "國立政治大學外交學系畢業",
-            "台中一中畢業",
-            "豐南國中畢業",
-            "瑞穗國小畢業",
-            "行政院新聞局局長",
-            "東吳大學副教授",
-            "東吳大學助理教授",
-            "台灣經濟研究院國際處代處長",
-            "太平洋經濟合作理事會",
-            "中華民國委員會副秘書長",
-            "獲選中央社2006年「台灣十大潛力人物」"
-        ],
-        "gender": "男",
-        "image": "http://www.ly.gov.tw/upload/01_introduce/0103_leg/LGpicture/80010.jpg",
-        "in_office": true,
-        "links": {
-            "ly": "http://www.ly.gov.tw/03_leg/0301_main/legIntro.action?lgno=00010&stage=8"
-        },
-        "name": "江啟臣",
-        "party": "KMT",
-        "term_start": "2012-02-01",
-        "avatar": "http://avatars.io/52ed1f85c747b48148000053/34b23fe50834ca3cf461538f31aedc47",
-        "id": 1731
     },
     {
         "ad": 8,
